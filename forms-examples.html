@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Formularios RegExp</title>
+ <h1>EXPRESIONES REGULARES</h1>
+ <h3>Universitario: Felix Maturano Zarate </h3> 
+<h3>CU: 111-531</h3>
+ <h2>VALIDAREMOS SUS DATOS </h2>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: linear-gradient(135deg, black 10%, blue 100%);">
+ <section class="container">
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <form id="form-codigo-postal" action="#" method="#">
+        <div class="form-row">
+          <div class="col-12">
+            <h4> CÓDIGO POSTAL</h4>
+            <p>Indica un código postal (cuatro dígitos)</p>
+            <input type="text" class="form-control"><br>
+            <button type="submit" class="btn btn-dark btn-md btn-block">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-4">
+      <form id="form-matricula" action="#" method="#">
+        <div class="form-row">
+          <div class="col-12">
+            <h4> MATRICULA</h4>
+            <p>Indica una matrícula (cuatro dígitos y dos letras mayúsculas)</p>
+            <input type="text" class="form-control"><br>
+            <button type="submit" class="btn btn-dark btn-md btn-block">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-4">
+      <form id="form-correo" action="#" method="#">
+        <div class="form-row">
+          <div class="col-12">
+            <h4>CORREO ELECTRÓNICO</h4>
+            <p class="verde">Indica una dirección de email (texto, arroba, texto, punto, texto)</p>
+            <input type="text" class="form-control"><br>
+            <button type="submit" class="btn btn-dark btn-md btn-block">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <form id="form-texto" action="#" method="#">
+        <div class="form-row">
+          <div class="col-12">
+            <h4>NOMBRE COMPLETO</h4>
+            <p>Indica cualquier texto (Empieza con mayúscula)</p>
+            <input type="text" class="form-control"><br>
+            <button type="submit" class="btn btn-dark btn-md btn-block">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-4">
+      <form id="form-dni" action="#" method="#">
+        <div class="form-row">
+          <div class="col-12">
+            <h4>DNI</h4>
+            <p>Indica un número de DNI (tanto nacional como extranjero)</p>
+            <input type="text" class="form-control"><br>
+            <button type="submit" class="btn btn-dark btn-md btn-block">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-4">
+      <form id="form-contrasena" action="#" method="#">
+        <div class="form-row">
+          <div class="col-12">
+            <h4>CONTRASEÑA</h4>
+            <p>Indica una contraseña de longitud mínima 7, con una mayúscula, una minúscula, un número y un carácter especial</p><br>
+            <input type="text" class="form-control"> 
+            <button type="submit" class="btn btn-dark btn-md btn-block">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+ </section>
+ <script src="script.js"></script>
+</body>
+
+</html>
